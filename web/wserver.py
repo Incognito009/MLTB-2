@@ -220,13 +220,13 @@ input[type="submit"]:hover, input[type="submit"]:focus{
           src="https://telegra.ph/file/cc06d0c613491080cc174.png"
           alt="logo"
         />
-        <a href="https://t.me/anas_tayyar">
-          <h2 class="name">Qbittorrent Selection</h2>
+        <a href="https://t.me/DrTorrent">
+          <h2 class="name">QbitTorrent Web Client</h2>
         </a>
       </div>
       <div class="social">
-        <a href="https://www.github.com/anasty17/mirror-leech-telegram-bot"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/anas_tayyar"><i class="fab fa-telegram"></i></a>
+        <a href="https://www.caduceus.ml"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/DrTorrent"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <div id="sticks">
@@ -412,7 +412,7 @@ code_page = """
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Torrent Code Checker</title>
+    <title>QbitTorrent Web Client</title>
     <link rel="icon" href="https://telegra.ph/file/cc06d0c613491080cc174.png" type="image/jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -612,13 +612,13 @@ section span{
           src="https://telegra.ph/file/cc06d0c613491080cc174.png"
           alt="logo"
         />
-        <a href="https://t.me/anas_tayyar">
-          <h2 class="name">Qbittorrent Selection</h2>
+        <a href="https://t.me/DrTorrent">
+          <h2 class="name">QbitTorrent Web Client</h2>
         </a>
       </div>
       <div class="social">
-        <a href="https://www.github.com/anasty17/mirror-leech-telegram-bot"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/anas_tayyar"><i class="fab fa-telegram"></i></a>
+        <a href="https://www.caduceus.ml"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/DrTorrent"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <section>
@@ -634,7 +634,7 @@ section span{
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
           <span
-            >* Dont mess around. Your download will get messed up.</
+            >* Powerd by Dr.Torrent Group</
           >
     </section>
 </body>
@@ -753,7 +753,7 @@ def set_priority(hash_id):
 
 @app.route('/')
 def homepage():
-    return "<h1>See mirror-leech-telegram-bot <a href='https://www.github.com/anasty17/mirror-leech-telegram-bot'>@GitHub</a> By <a href='https://github.com/anasty17'>Anas</a></h1>"
+    return "<h1><b>Bot is up and working in Dr.Torrent Group!</b></h1>"
 
 @app.errorhandler(NotFound404Error)
 def page_not_found(e):
